@@ -23,11 +23,11 @@ const yourFavoriteColor = "red";
 const userFavoriteAnimal = prompt("What's your favorite animal?");
 const userFavoriteColor = prompt("What's your favorite color?");
 if (userFavoriteAnimal === yourFavoriteAnimal && userFavoriteColor === yourFavoriteColor) {
-  console.log("Wow, we have the same favorite animal and color!");
+  console.log("We have the same favorite animal and color!");
 } else if (userFavoriteAnimal === yourFavoriteAnimal) {
-  console.log("We share the same favorite animal!");
+  console.log("We like the same favorite animal!");
 } else if (userFavoriteColor === yourFavoriteColor) {
-  console.log("We share the same favorite color!");
+  console.log("We have the same favorite color!");
 } else {
   console.log("We don't have the same favorite animal or color.");
 }
@@ -50,9 +50,9 @@ if (number > 0) {
 
 const usersInput = prompt("Enter a value:");
 if (usersInput) {
-  console.log("The value is truthy.");
+  console.log("true.");
 } else {
-  console.log("The value is falsy.");
+  console.log("false.");
 }
 
 
