@@ -36,13 +36,13 @@ if (userFavoriteAnimal === yourFavoriteAnimal && userFavoriteColor === yourFavor
 // task 6
 
 const userInput = prompt("Enter a number:");
-const number = parseFloat(userInput);
+
 if (number > 0) {
-  console.log("The number is positive.");
+  console.log("This is positive.");
 } else if (number < 0) {
-  console.log("The number is negative.");
+  console.log("This is negative.");
 } else {
-  console.log("The number is zero.");
+  console.log("This is zero.");
 }
 
 ////////////////////////
@@ -55,10 +55,5 @@ if (usersInput) {
   console.log("The value is falsy.");
 }
 
-////////////////////////
-// task 10
-validé
-////////////////////////
-// task 12
-validé
+
 
